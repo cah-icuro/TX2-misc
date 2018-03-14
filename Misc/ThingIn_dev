@@ -1,0 +1,40 @@
+8030000.etf               iio:device0       mmcblk0p2           nvhost-tsg-gpu  sw_sync              tty27  tty63
+8050000.etr               iio:device1       mmcblk0p20          nvhost-vi       tegra_camera_ctrl    tty28  tty7
+autofs                    iio:device2       mmcblk0p21          nvhost-vic      tegra-crypto         tty29  tty8
+block                     iio:device3       mmcblk0p22          nvidiactl       tegra_dc_0           tty3   tty9
+bus                       initctl           mmcblk0p23          nvmap           tegra_dc_ctrl        tty30  ttyGS0
+camchar-dbg               input             mmcblk0p24          port            tegra_mipi_cal       tty31  ttyS0
+camchar-echo              keychord          mmcblk0p25          ppp             tegra-throughput     tty32  ttyS1
+char                      kmsg              mmcblk0p26          ptmx            tegra-vi0-channel0   tty33  ttyS2
+cluster0_freq_max         log               mmcblk0p27          ptp0            tegra-vi0-channel1   tty34  ttyS3
+cluster0_freq_min         loop0             mmcblk0p3           pts             tegra-vi0-channel10  tty35  ttyTHS1
+cluster1_freq_max         loop1             mmcblk0p4           quadd           tegra-vi0-channel11  tty36  ttyTHS2
+cluster1_freq_min         loop2             mmcblk0p5           quadd_auth      tegra-vi0-channel2   tty37  ttyTHS3
+console                   loop3             mmcblk0p6           ram0            tegra-vi0-channel3   tty38  ttyUSB0
+constraint_cluster0_freq  loop4             mmcblk0p7           ram1            tegra-vi0-channel4   tty39  uhid
+constraint_cluster1_freq  loop5             mmcblk0p8           ram10           tegra-vi0-channel5   tty4   uinput
+constraint_gpu_freq       loop6             mmcblk0p9           ram11           tegra-vi0-channel6   tty40  urandom
+constraint_online_cpus    loop7             mmcblk0rpmb         ram12           tegra-vi0-channel7   tty41  vcs
+cpu_dma_latency           loop-control      net                 ram13           tegra-vi0-channel8   tty42  vcs1
+disk                      mapper            network_latency     ram14           tegra-vi0-channel9   tty43  vcs2
+emc_freq_min              max_cpu_power     network_throughput  ram15           tty                  tty44  vcs3
+fb0                       max_gpu_power     null                ram2            tty0                 tty45  vcs4
+fd                        max_online_cpus   nvhost-as-gpu       ram3            tty1                 tty46  vcs5
+full                      media0            nvhost-ctrl         ram4            tty10                tty47  vcs6
+fuse                      mem               nvhost-ctrl-gpu     ram5            tty11                tty48  vcs7
+gpu_freq_max              memory_bandwidth  nvhost-ctrl-isp     ram6            tty12                tty49  vcsa
+gpu_freq_min              min_online_cpus   nvhost-ctrl-nvcsi   ram7            tty13                tty5   vcsa1
+hidraw0                   mmcblk0           nvhost-ctrl-nvdec   ram8            tty14                tty50  vcsa2
+hidraw1                   mmcblk0boot0      nvhost-ctrl-vi      ram9            tty15                tty51  vcsa3
+hidraw2                   mmcblk0boot1      nvhost-ctxsw-gpu    random          tty16                tty52  vcsa4
+hidraw3                   mmcblk0p1         nvhost-dbg-gpu      rfkill          tty17                tty53  vcsa5
+hidraw4                   mmcblk0p10        nvhost-gpu          rtc             tty18                tty54  vcsa6
+i2c-0                     mmcblk0p11        nvhost-isp          rtc0            tty19                tty55  vcsa7
+i2c-1                     mmcblk0p12        nvhost-msenc        rtc1            tty2                 tty56  watchdog
+i2c-2                     mmcblk0p13        nvhost-nvcsi        serial          tty20                tty57  watchdog0
+i2c-3                     mmcblk0p14        nvhost-nvdec        shm             tty21                tty58  xt_qtaguid
+i2c-4                     mmcblk0p15        nvhost-nvjpg        snd             tty22                tty59  zero
+i2c-5                     mmcblk0p16        nvhost-prof-gpu     stderr          tty23                tty6
+i2c-6                     mmcblk0p17        nvhost-sched-gpu    stdin           tty24                tty60
+i2c-7                     mmcblk0p18        nvhost-tsec         stdout          tty25                tty61
+i2c-8                     mmcblk0p19        nvhost-tsecb        sweep           tty26                tty62

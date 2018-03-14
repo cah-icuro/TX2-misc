@@ -1,0 +1,1 @@
+./nvx_demo_video_stabilizer --source="device:///nvcamera?index=0"

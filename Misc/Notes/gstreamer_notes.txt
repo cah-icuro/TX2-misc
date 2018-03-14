@@ -1,0 +1,17 @@
+The only other “development environment” that is required is the gcc compiler and a text editor. In order to compile code that requires GStreamer and uses the GStreamer core library, remember to add this string to your gcc command:
+
+pkg-config --cflags --libs gstreamer-1.0
+
+---
+
+GStreamer pipeline elements
+
+Source: produces video
+Filter:
+Sink: consumes video
+
+Basic pipeline: source -> filter -> sink
+
+
+Pipeline info:
+http://wiki.oz9aec.net/index.php/Gstreamer_cheat_sheet

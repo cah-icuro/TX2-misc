@@ -1,0 +1,1 @@
+export GSCAM_CONFIG="nvcamerasrc ! video/x-raw(memory:NVMM),width=1280, height=720,format=I420, framerate=30/1 ! nvvidconv ! video/x-raw, format=BGRx ! videoconvert ! ffmpegcolorspace"
